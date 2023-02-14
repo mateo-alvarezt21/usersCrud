@@ -1,0 +1,49 @@
+.navbar{
+    padding: 15px;
+    gap: 10px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.navbar__title{
+    font-size: 50px;
+    margin: 0;
+    color: aliceblue;
+}
+
+@media (min-width: 768px){
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__title{
+        font-size: 30px;
+    }
+}
+
+.navbar__btn{
+    background-color: #9b5c94;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.navbar__btn:hover{
+    background-color: #7a4574;
+}
+
+@media (min-width: 768px){
+    .navbar__title{
+        font-size: 60px;
+        margin: 5px;
+    }
+}

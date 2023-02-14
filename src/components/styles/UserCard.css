@@ -1,0 +1,96 @@
+.userCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/3;
+    padding: 0 10px;
+    margin: 0px 10px 20px 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.userCard__name{
+    font-size: 18px;
+}
+
+.userCard__list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.userCard__email{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.userCard__birthday{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.userCard__icon{
+    font-size: 18px;
+}
+
+.userCard__footer{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.userCard__button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #d390ca;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+
+.userCard__button:hover{
+    background-color: #e6abde;
+}
+
+.userCard__button i{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px){
+
+    .userCard__footer{
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .userCard__button{
+        width: 60px;
+        height: 60px;
+    }
+
+    .userCard__name{
+        font-size: 22px;
+    }
+    .userCard__email{
+        font-size: 18px;
+    }
+    
+    .userCard__birthday{
+        font-size: 18px;
+        color: gray;
+        padding-bottom: 5px;
+    }
+    
+    .userCard__icon{
+        font-size: 20px;
+    }
+    .userCard__button i{
+        font-size: 24px;
+        
+    }
+}
