@@ -1,5 +1,5 @@
 .modalForm{
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.567);
     top: 0;
     height: 100vh;

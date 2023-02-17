@@ -62,10 +62,23 @@
 
 @media (min-width: 768px){
 
+    .userCard{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1;
+        padding: 0 10px;
+        margin: 0px 10px 20px 10px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        width: auto;
+    }
+
     .userCard__footer{
         flex-direction: row;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
+        padding-bottom: 10px;
     }
 
     .userCard__button{
@@ -83,7 +96,7 @@
     .userCard__birthday{
         font-size: 18px;
         color: gray;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
     
     .userCard__icon{
